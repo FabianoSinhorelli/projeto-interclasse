@@ -1,0 +1,23 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f0f2f5; color: #333; padding: 20px; }
+.container { max-width: 800px; margin: 0 auto; background: #fff; padding: 25px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+h1 { text-align: center; margin-bottom: 20px; color: #2c3e50; }
+.form-group { margin-bottom: 15px; }
+label { display: block; margin-bottom: 5px; font-weight: 600; }
+input[type="text"] { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 6px; font-size: 14px; transition: border 0.3s; }
+input[type="text"]:focus { border-color: #3498db; outline: none; }
+.error-msg { color: #e74c3c; font-size: 0.85em; display: block; margin-top: 5px; min-height: 18px; }
+.buttons { display: flex; gap: 10px; margin-bottom: 20px; }
+button { padding: 10px 16px; border: none; border-radius: 6px; cursor: pointer; font-weight: 500; transition: background 0.2s; }
+#btnSubmit { background: #27ae60; color: white; }
+#btnSubmit:hover { background: #219150; }
+#btnCancel { background: #e74c3c; color: white; }
+#btnCancel:hover { background: #c0392b; }
+table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+th { background: #f8f9fa; font-weight: 600; }
+.btn-edit { background: #f39c12; color: #fff; padding: 6px 10px; margin-right: 5px; font-size: 13px; }
+.btn-delete { background: #e74c3c; color: #fff; padding: 6px 10px; font-size: 13px; }
+.btn-edit:hover { background: #d68910; }
+.btn-delete:hover { background: #c0392b; }
+.loading { text-align: center; color: #777; font-style: italic; }
